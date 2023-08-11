@@ -1,0 +1,30 @@
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 500px;
+  width: 500px;
+  border-radius: 500px;
+}
+
+@keyframes twirlyboy {
+  0% {
+  }
+
+  25% {
+    transform: rotate3d(0, 25, 0, 100deg);
+    filter: c;
+  }
+
+  50% {
+    transform: rotate3d(0, 50, 0, 360deg);
+  }
+  100% {
+  }
+}
+
+div {
+  animation-name: twirlyboy;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
