@@ -9,15 +9,17 @@ img {
 
 @keyframes twirlyboy {
   0% {
+    background-color: white;
   }
 
   25% {
     transform: rotate3d(0, 25, 0, 100deg);
-    filter: c;
+    background-color: deeppink;
   }
 
   50% {
     transform: rotate3d(0, 50, 0, 360deg);
+    background-color: crimson;
   }
   100% {
   }
